@@ -1,4 +1,4 @@
-# Project Name
+# Lending Club Case Study
 > Outline a brief description of your project.
 
 
@@ -11,38 +11,35 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This project is about analysing the data gathered from a consumer finance company.
+- The background of the project is to analyze the data in python and provide the best solution to avoid the loss to the Finance Company.
+- This project is to prevent the loss to the Finance by deriving the factors which are reasonable for it.
+- The dataset used here is the Loan details of the Finance Company such Interest Rate, Loan Amount , Loan Status , Installments , DTI and various others.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Loan Amount provided is in higher range for the higher interest rate and the charged off is also high (Rec: Providing the appropriate Interest rate would avoid the charged Off)
+- Low Annual Income and High Interest rate has also lead to Charged Off (Rec: Providing low interest rate to the person with low income can decrease the “charged off”)
+- Less Loan Amount is provided when Annual Income is low. Loan status is Charged Off when high Loan Amount is provided for Low Annual Income
+- Charged Off is high when the Interest Rate is provided in higher range for the person with Low Annual income. (Rec : Low Interest to Low incomed person can avoid the “Charged Off”)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.9
+- Jupyter Notebook - Anaconda
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
+- This project was inspired by general data Analysis made for any Financial Company
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@arunvgeorge90] - feel free to contact me!
 
 
 <!-- Optional -->
